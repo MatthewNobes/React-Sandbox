@@ -7,6 +7,10 @@ import {
   useRouteMatch,
   useParams
 } from "react-router-dom";
+
+
+//Importing pages
+import Home from './components/main-pages/home';
 import TestTable from './components/main-pages/table';
 
 export default function App() {
@@ -39,14 +43,6 @@ export default function App() {
       </div>
     </Router>
   );
-}
-
-function Home() {
-  return <h2>Home</h2>;
-}
-
-function About() {
-  return <h2>About</h2>;
 }
 
 function Topics() {
