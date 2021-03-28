@@ -26,7 +26,7 @@
 /*Page styling */
 .Main-Content {
   margin: auto;
-  width: 60vw;
+  max-width: 1400px;
   vertical-align: middle;
   
  
