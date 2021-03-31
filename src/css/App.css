@@ -81,3 +81,25 @@
   padding-left: 2.5vw;
   padding-right: 2.5vw;
 }
+
+/* React-table Styling */
+table {
+  border: 'solid 1px blue';
+  text-align: center ;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+table th {
+  border-bottom: solid 3px black;
+  background: aliceblue;
+  color: black;
+  font-weight: bold;
+}
+
+td {
+  padding: 10px;
+  border: solid 1px black;
+  background: papayawhip;
+}
