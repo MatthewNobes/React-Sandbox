@@ -1,4 +1,5 @@
 import React from "react";
+import "./css/App.css";
 import {
   BrowserRouter as Router,
   Switch,
@@ -15,17 +16,17 @@ import TestTable from './components/main-pages/table';
 
 export default function App() {
   return (
-    <Router>
+    <Router className="React-Router">
       <div>
-        <ul>
-          <li>
-            <Link to="/">Home</Link>
+        <ul className="React-Router-Group">
+          <li className="React-Router-headlinks">
+            <Link className="React-Router-Links" to="/">Home</Link>
           </li>
-          <li>
-            <Link to="/table">React Tables</Link>
+          <li className="React-Router-headlinks">
+            <Link className="React-Router-Links" to="/table">React Tables</Link>
           </li>
-          <li>
-            <Link to="/topics">Topics</Link>
+          <li className="React-Router-headlinks">
+            <Link className="React-Router-Links" to="/topics">Topics</Link>
           </li>
         </ul>
 
@@ -53,11 +54,11 @@ function Topics() {
       <h2>Topics</h2>
 
       <ul>
-        <li>
-          <Link to={`${match.url}/components`}>Components</Link>
+        <li className="React-Router-sublinks">
+          <Link className="React-Router-Links" to={`${match.url}/components`}>Components</Link>
         </li>
-        <li>
-          <Link to={`${match.url}/props-v-state`}>
+        <li className="React-Router-sublinks">
+          <Link className="React-Router-Links" to={`${match.url}/props-v-state`}>
             Props v. State
           </Link>
         </li>
