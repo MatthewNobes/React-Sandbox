@@ -51,10 +51,10 @@ function Topics() {
 
   return (
     <div>
-      <h2>Topics</h2>
+      
 
       <ul>
-        <li className="React-Router-sublinks">
+        <li className="React-Router-Headlinks">
           <Link className="React-Router-Links" to={`${match.url}/components`}>Components</Link>
         </li>
         <li className="React-Router-sublinks">
@@ -63,6 +63,8 @@ function Topics() {
           </Link>
         </li>
       </ul>
+
+      <h2>Topics</h2>
 
       {/* The Topics page has its own <Switch> with more routes
           that build on the /topics URL path. You can think of the
@@ -76,6 +78,7 @@ function Topics() {
           <h3>Please select a topic.</h3>
         </Route>
       </Switch>
+      
     </div>
   );
 }

@@ -38,6 +38,13 @@
   background-color: #282c34;
 }
 
+.React-Router-Group {
+  width: 100%;
+  display: flex;
+  
+  background-color: #282c34;
+}
+
 .React-Router-sublinks {
   display: inline;
   list-style-type: none;
@@ -47,15 +54,13 @@
   background-color: #282c34;
 }
 
-.React-Router-headlinks {
-  float: left;
-}
 
 .React-Router-Links:hover {
   background-color: #111;
 }
 
 .React-Router-Links {
+  background-color: #282c34;
   display: block;
   color: white;
   text-align: center;
