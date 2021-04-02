@@ -9,6 +9,8 @@ function Footer() {
       </footer>
     </div>
   );
+
 }
 
 export default Footer;
+// 

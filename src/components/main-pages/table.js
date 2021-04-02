@@ -1,6 +1,10 @@
 import { useTable } from 'react-table';
 import React from 'react';
  
+/**
+ * This is used to create the data being used in this React-Table test.
+ * @returns Test dataset for the table TestTable
+ */
  function TestTable() {
    const data = React.useMemo(
      () => [
@@ -41,8 +45,6 @@ import React from 'react';
      []
    )
 
- 
-
    const {
      getTableProps,
      getTableBodyProps,
@@ -52,7 +54,6 @@ import React from 'react';
    } = useTable({ columns, data })
 
  
-
    return (
      <div className="Main-Content">
         <h1 className='Main-Title'>React-table test</h1>

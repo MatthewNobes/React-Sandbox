@@ -8,7 +8,7 @@ function Header() {
         <h1>React Sandbox</h1>
       </header>
     </div>
-  );
+   );
 }
 
 export default Header;

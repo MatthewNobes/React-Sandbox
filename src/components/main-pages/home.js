@@ -3,8 +3,8 @@ import React from 'react';
 
 
 function Home() {
-    let currentPackages= ["React", "React-table", "React-router"]
-    let futurePackages= ["JSDocs", "SASS", "Bootstrap"]
+    let currentPackages= ["React", "React-table", "React-router", "JSDocs"]
+    let futurePackages= [ "SASS/SCSS", "Bootstrap"]
 
     return (
         <div className="Main-Content">

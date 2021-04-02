@@ -14,6 +14,10 @@ import {
 import Home from './components/main-pages/home';
 import TestTable from './components/main-pages/table';
 
+/**
+ * This is using React router to load multiple different pages within the same page.
+ * @returns This returns the main page layout that can switch to others
+ */
 export default function App() {
   return (
     <Router className="React-Router">
