@@ -5,14 +5,18 @@ This is a playground for everything I want to test in React and possible just ge
 To improve documentation for this I will eventually setup JSDocs to better detail this work.
 
 ## Key Scripts
-A number of different scripts have been setup for this program. A full list of these can be found in the package.json. I have also incldued a few of the key ones here:
-* The start script is used to start the program using the stanard NPM/React formatting.
+A number of different scripts have been setup for this program. A full list of these can be found in the package.json. I have also included a few of the key ones here:
+* The start script is used to start the program using the standard NPM/React formatting.
 ```bash
 npm run start
 ```
 * The generate docs script is used to regenerate the JSDocs documentation and should be executed when a change has been made it its setup within any file. 
 ```bash
 npm run generate-docs
+```
+* This repo has unit testing built in with Jest. As with all React Apps, test scripts can be executed using the following commands.
+```bash
+npm run test
 ```
 
 ## Usage Notice 
