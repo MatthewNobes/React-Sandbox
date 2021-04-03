@@ -89,22 +89,32 @@
 
 /* React-table Styling */
 table {
-  border: 'solid 1px blue';
+  padding-top: 10vh;
+  border-collapse: collapse;
   text-align: center ;
   align-items: center;
   justify-content: center;
-  
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
 }
 
+/* Column styling*/
 table th {
-  border-bottom: solid 3px black;
-  background: aliceblue;
-  color: black;
+  padding: 1vh;
+  background: rgb(0, 79, 148);
+  color: rgb(255, 255, 255);
   font-weight: bold;
+  column-width: auto;
+  border-right: 3px solid white;
+  border-bottom: 3px solid white;
 }
 
+/* Data Styling*/
 td {
   padding: 10px;
-  border: solid 1px black;
-  background: papayawhip;
+  background: rgb(0, 44, 82);
+  border: 1px solid white;
+  border-right: 3px solid white;
+  color: white;
 }

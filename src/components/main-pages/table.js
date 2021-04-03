@@ -23,6 +23,21 @@ import React from 'react';
         item: 'burger',
         amount: '£3.50'
        },
+       {
+        name: 'Ricky',
+        item: 'sandwich',
+        amount: '£4.50'
+       },
+       {
+        name: 'Karl',
+        item: 'coke',
+        amount: '£1.75'
+       },
+       {
+        name: 'Jane',
+        item: 'water',
+        amount: '£2.75'
+       },
      ],
      []
    )
